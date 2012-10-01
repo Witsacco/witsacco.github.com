@@ -1,43 +1,80 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Witsacco by Witsacco</title>
+    <title>Witsacco</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet">
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/js/bootstrap.min.js"></script>
+
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+      .appsection {
+      	margin-bottom: 20px;
+      }
+      .appsection button {
+      	margin-bottom: 5px;
+      }
+    </style>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Witsacco</h1>
-        <p>Creating cool stuff.</p>
 
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Witsacco</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
 
+    <div class="container">
+
+		<div class="appsection">
+			<div><button class="btn"><a href="http://imagemaze.witsacco.com">ImageMaze</a></button></div>
+			<div><span class="label">Traverse the 3D maze and use the images to help guess the secret word</span></div>
+		</div>
+
+		<div class="appsection">
+			<div><button class="btn"><a href="http://mockery.witsacco.com">Mockery</a></button></div>
+			<div><span class="label">The chat app that mocks you</span></div>
+		</div>
+
+		<div class="appsection">
+			<div><button class="btn"><a href="http://hecksagonal.witsacco.com">Hecksagonal</a></button></div>
+			<div><span class="label">Outsmart your opponent in this online version of the classic Hex game</span></div>
+		</div>
+
+		<hr />
         <p class="view"><a href="https://github.com/Witsacco">View My GitHub Profile</a></p>
 
-      </header>
-      <section>
-        <h1>Hello World!</h1>
-
-<p>This is Witsacco.com.</p>
-
-<ul>
-<li><a href="http://imagemaze.witsacco.com">ImageMaze</a></li>
-<li><a href="http://mockery.witsacco.com">Mockery</a></li>
-<li><a href="http://hecksagonal.witsacco.com">Hecksagonal</a></li>
-</ul>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    </div> <!-- /container -->
   </body>
 </html>
